@@ -8,5 +8,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: [{ find: "@", replacement: src }]
-  }
+  },
+  base: "password-generator"
 });
